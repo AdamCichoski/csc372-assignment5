@@ -50,7 +50,7 @@ table{
 }
 
 
-.winLossItem, .gameSelection, .usersChoice, .computersChoice{
+.winLossItem, .gameSelection, .usersChoice, .computersChoice, .winnerTable{
     display: inline;
     margin: auto;
 }
