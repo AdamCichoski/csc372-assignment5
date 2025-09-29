@@ -68,10 +68,21 @@ table{
     width: 100px;
 }
 
-.option:hover{
-    background-color: darkgreen;
+.option:hover, .isSelected{
+    background-color: rgb(124, 218, 124);
 }
 
 .gameChoiceMenu{
     
+}
+
+button{
+    border-radius: 5px;
+    background-color: darkgreen;
+    color: white;
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 35px;
+    font-size: 20px;
 }
