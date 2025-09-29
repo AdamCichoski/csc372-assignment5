@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="scripts.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <div class="title">
+            Rock, Paper, Scissors!
+        </div>
+    </nav>
+
+    <div class="pageItems">
+        <div class="scoreBar">
+            <!-- This area is used to display the wins and losses -->
+            <div class="winLossFrame">
+                <div class="winLossItem">
+                    Wins: <span id="wins">0</span>
+                </div>
+
+                <div class="winLossItem">
+                    Losses: <span id="losses">0</span>
+                </div>
+            </div>
+
+            <!-- This area displays the current score -->
+            <div class="scoreFrame">
+                <div class="score">
+                    Current score: <span id="score">0</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="mainContent">
+            <div class="gameSelection">
+                <table class="usersChoice">
+                    <tr>
+                        <th>
+                            Your Choice
+                        </th>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img class="selectionImage" id="userSelection" src="images/question-mark.PNG">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="gameSelection">
+                <table class="computersChoice">
+                    <tr>
+                        <th>
+                            Computer's Choice
+                        </th>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img class="selectionImage" id="computerSelection" src="images/question-mark.PNG">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <hr>
+
+            <div class="gameChoiceMenu">
+                <img class="option" id="rock" src="images/rock.PNG">
+                <img class="option" id="paper" src="images/paper.PNG">
+                <img class="option" id="scissors" src="images/scissors.PNG">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
